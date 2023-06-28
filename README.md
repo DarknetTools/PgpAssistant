@@ -29,7 +29,7 @@ mkdir /home/amnesia/Persistent/DarknetTools; cd /home/amnesia/Persistent/Darknet
 
 
 ## Step 3) Copy the DTPA code to your computer  
-Copy the code in the pgpassistant.sh file above to a file called phpassistant.sh to the DarknetTools folder you just created in step 2.
+Copy the code in the pgpassistant.sh file above to a file called phpassistant.sh in the DarknetTools folder you just created in step 2.
 
 
 ## Step 4) Make the pgpassistant.sh file executable.
