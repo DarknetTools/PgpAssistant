@@ -110,7 +110,7 @@ nohup ./pgpassistant.sh > /tmp/darknet-tools-stdout &
 ```
 *Note: If you run the DTPA in the background, you will no longer be able to quit it with Ctrl+c. You can only quit it then by manually killing the process or by rebooting your system.
 To manually kill the DPTA process, open a terminal and run the command 'pgrep -l pgpassistant'. This command will output a number followed by the command you used to start the pgp assistant.
-Run the command 'kill -f <number>' (with <number> being the number you got back from the pgrep command). This will kill the process and stop the DTPA.*
+Run the command 'kill -f number' (with number being the number you got back from the pgrep command). This will kill the process and stop the DTPA.*
 
 **4)** You can make things easier for yourself by adding an easy to use alias to your .bashrc file for the DTPA to run in the background. After doing this, you can always run the DTPA in the background by simply typing 'dtpa', or whatever alias you prefer, into a terminal instead of the more complicated commands described earlier.
 To do so:\
