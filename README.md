@@ -58,7 +58,7 @@ This can be done by running the following command:
 
 # Configuration Options
 Here follows a quick recap of all changeable features from the full feature list and how to change them:\
-**a)** Do you want the decryption functionality enabled or in the DTPA?
+**a)** Do you want the decryption functionality enabled or disabled in the DTPA?
 
 => Change the 'enableDecryption' variable on line two of the script. Set to 1 for yes, 0 for no. (default: 1)
 
