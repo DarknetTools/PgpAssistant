@@ -29,13 +29,7 @@ mkdir /home/amnesia/Persistent/DarknetTools; cd /home/amnesia/Persistent/Darknet
 
 
 ## Step 3) Copy the DTPA code to your computer  
-Copy the code of the DTPA that you just verified in Kleopatra to a new file in your newly created DarknetTools folder. It is recommended to use 'pgpassistant.sh' as the filename. The easiest way to do this is to first copy the command below to clipboard and pasting it in your terminal window **WITHOUT PRESSING ENTER**. 
-```
-xclip -selection c -o > pgpassistant.sh
-```
-Then copy the code for the DTPA clipboard. \
-**IMPORTANT: MAKE SURE YOU ONLY COPY THE CODE THIS TIME WITHOUT INCLUDING ANY OF THE PGP PARTS OF THE SIGNED MESSAGE ITSELF!**\
-Next, go back to your terminal window, and press enter to run the command you just copied into it. This command will take the new contents of your clipboard, i.e the DTPA code, and put it in a file called 'pgpassistant.sh'.
+Copy the code in the pgpassistant.sh file above to a file called phpassistant.sh to the DarknetTools folder you just created in step 2.
 
 
 ## Step 4) Make the pgpassistant.sh file executable.
