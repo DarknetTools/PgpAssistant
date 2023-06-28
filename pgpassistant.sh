@@ -342,7 +342,7 @@ do
     then
         kleopatraWarningDone=0 #reset the kleopatraWarningDone variable, so that a new warning will be generated if Kleopatra reopens and the user has these warnings configured to be displayed
         lastClip="$clipboard" #set the last clipboard entry to the current clipboard contents so this clipboard entry will not be processed again after the processing that will take place now.
-	if [[ "$(printf -- '%s' "$clipboard"|wc -l)" -eq 0 ]] && printf -- '%s' "$clipboard"|grep -qE -- "^(http)?.*\.onion/?.*$" #check if the clipboard fits the pattern of an Onion Link and if so, call the appropriate handler.
+	if [[ "$(printf -- '%s' "$clipboard"|wc -l)" -eq 0 ]] && printf -- '%s' "$clipboard"|grep -qE -- "^(https?://)?(www.)?.{56}\.onion/?.*$" #check if the clipboard fits the pattern of an Onion Link and if so, call the appropriate handler.
         then
     	    HandleOnionClip "$clipboard"
         elif [[ "$clipboard" == *"-----BEGIN PGP PUBLIC KEY BLOCK-----"*"-----END PGP PUBLIC KEY BLOCK-----"* ]] #check if the clipboard fits the pattern of a PGP Public Key, and if so call the appropriate handler.
