@@ -10,7 +10,7 @@ To install xclip, simply open a terminal and run the following command:
 sudo apt update; sudo apt -y upgrade; sudo apt install -y xclip
 ```
 
-*Note: If you don't know your sudo password, it is 'changeme' by default on Whonix. If you haven't already it would be a good idea for you to change this to something more secure. You can do this by running the command below. This will prompt you for your current password 'changeme' and then you can set a new one.*
+*Note: If you don't know your sudo password, it is 'changeme' by default on Whonix. If you haven't already it would be a good idea for you to change this to something more secure. You can do this by running the command below. This will prompt you for your current password 'changeme' and then you can set a new one.*\
 `passwd`
 
 
