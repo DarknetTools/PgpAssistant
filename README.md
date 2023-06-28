@@ -14,7 +14,7 @@ sudo apt update; sudo apt -y upgrade; sudo apt install -y xclip
 `passwd`
 
 
-## Step 2) Create a folder for the DTPA\
+## Step 2) Create a folder for the DTPA
 **On Whonix:**\
 Create a folder called 'DarknetTools' in your home folder and navigate to it in terminal by running the command below in terminal:
 ```
